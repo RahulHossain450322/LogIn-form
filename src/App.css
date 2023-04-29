@@ -1,0 +1,33 @@
+.login{
+    background-color: #333333da !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input{
+    background-color: #333333da !important;
+    color: white !important;
+}
+.checkbox{
+    background-color: #333333da !important;
+    border: 2px solid #E0FF2C !important;
+    
+}
+.form-password{
+    position: relative;
+}
+.passwordLabel{
+    color: #E0FF2C !important;
+    position: absolute;
+    right: 10px;
+    top:5px;
+}
+::placeholder{
+    color: white !important;
+}
+.loginBtn{
+    background-color:#E0FF2C !important ;
+    border: none !important;
+    color: black !important;
+}

@@ -3,6 +3,14 @@ import './App.css'
 import { AiFillEyeInvisible } from 'react-icons/ai';
 
 function App() {
+  const show=()=>{
+    const passIcon = document.querySelector('.passwordLabel');
+    passIcon.classList.add('show')
+  }
+  const blur=()=>{
+    const passIcon = document.querySelector('.passwordLabel');
+    passIcon.classList.remove('show')
+  }
 
   return (
     <section className='login'>
@@ -15,7 +23,7 @@ function App() {
         </div>
         <div className='mb-3 form-password'>
           <label className='form-label passwordLabel'><AiFillEyeInvisible /></label>
-          <input className='form-control input' name='password' placeholder='Enter password' type='password'  />
+          <input onBlur={blur} onFocus={show} className='form-control input passwordInput' name='password' placeholder='Enter password' type='password'  />
         </div>
         <div className='ms-2'>
           <input type='checkbox' className='form-check-input rounded-0 checkbox' />

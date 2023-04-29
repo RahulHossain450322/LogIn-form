@@ -1,6 +1,5 @@
 import {  } from 'react'
 import './App.css'
-import logo from './Logo/FOOTBALLSHURU.png'
 import { AiFillEyeInvisible } from 'react-icons/ai';
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
     <section className='login'>
       <form className='logInForm'>
         <div className='loginLogo mb-5 mx-3'>
-          <img src={logo} alt='logo' />
+          <h2 className='football text-light'>FOOTBALL<span className='suru'>SHURU</span></h2>
         </div>
         <div className='mb-2'>
           <input name='email' className='form-control input' placeholder='Enter email address' type='email' />

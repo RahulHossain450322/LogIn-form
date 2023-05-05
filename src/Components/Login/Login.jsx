@@ -47,8 +47,9 @@ const submit=(e)=>{
   .catch((error) => {
     if(error.code==='auth/wrong-password'){
       setErr('Wrong password!')
+    }else if(error.code==='auth/user-not-found'){
+      setErr('User Not Found!')
     }
-    // ..
   });
   }
 }

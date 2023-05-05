@@ -1,66 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alkatra&family=Bebas+Neue&family=Fasthand&display=swap');
-.login{
-    background-color: #333333da !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Alkatra&family=Bebas+Neue&family=Fasthand&display=swap");
+.login {
+  background-color: #333333da !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.football{
-    font-family: 'Bebas Neue', cursive !important;
+.football {
+  font-family: "Bebas Neue", cursive !important;
 }
-.suru{
-    color: #E0FF2C !important;
+.suru {
+  color: #e0ff2c !important;
 }
-.input{
-    background-color: #242424 !important;
-    color: white !important;
-    border: 1px solid rgb(231, 221, 221) !important;
-    font-size: 14px !important;
+.input {
+  background-color: #242424 !important;
+  color: white !important;
+  border: 1px solid rgb(231, 221, 221) !important;
+  font-size: 14px !important;
 }
-.checkbox{
-    background-color: #333333da !important;
-    border: 2px solid #E0FF2C !important;
-    cursor: pointer;
+.checkbox {
+  background-color: #333333da !important;
+  border: 2px solid #e0ff2c !important;
+  cursor: pointer;
 }
-.form-password{
-    position: relative;
+.form-password {
+  position: relative;
 }
-.passwordLabel{
-    color: #E0FF2C !important;
-    position: absolute;
-    right: 10px;
-    top:5px;
-    display: none;
+.passwordLabel {
+  color: #e0ff2c !important;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  display: none;
 }
-.signup{
+.signup {
+  padding: 1rem !important;
+}
+.loginLogo {
+  margin-top: 30px;
+}
+::placeholder {
+  color: white !important;
+}
+.loginBtn {
+  background-color: #e0ff2c !important ;
+  border: none !important;
+  color: black !important;
+}
+.show {
+  display: block;
+}
+@media screen and (min-width: 576px) {
+  .signup {
+    background-color: #313131 !important ;
     padding: 1rem !important;
-    height: 400px !important;
-}
-.loginLogo{
+    border-radius: 5px;
+    width: 300px !important;
+  }
+  .loginLogo {
+    margin: auto;
+    text-align: center;
     margin-top: 30px;
-}
-::placeholder{
-    color: white !important;
-}
-.loginBtn{
-    background-color:#E0FF2C !important ;
-    border: none !important;
-    color: black !important;
-}
-.show{
-    display: block;
-}
-@media screen and (min-width:576px) {
-    .signup{
-        background-color: #313131 !important ;
-        padding: 1rem !important;
-        border-radius: 5px;
-        width: 300px !important;
-    }
-    .loginLogo{
-        margin: auto;
-        text-align: center;
-        margin-top: 30px;
-    }
+  }
 }
